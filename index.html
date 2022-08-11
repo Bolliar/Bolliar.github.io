@@ -1,61 +1,81 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link rel="stylesheet" type="text/css" href="mystyle.css">
-        <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="normalize.css">
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/less.js/3.9.0/less.min.js" charset="utf-8"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" charset="utf-8"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/PreloadJS/1.0.1/preloadjs.min.js"></script>
-        <script type="text/javascript" src="script.js"></script>
-        <script src="scriptscroll.js" defer></script>
-    <title>Robert Pilgrim</title>
-</head>
-<body>
-  
-          <div class="progress"></div>
-   <div class="wrapper">
-           <div class="header-top">
-              <label for="nav-toggle" class="nav-toggle-label"><span></span></label>
-               <input type="checkbox" name="" id="nav-toggle" class="nav-toggle">
-               <nav>
-                   <li><a  href="#home">Home</a></li>
-                   <li><a  href="#portfolio">Portfolio</a></li>
-                   <li><a  href="#contacts">Contacts</a></li>
-               </nav>
-               
-           </div>
-       
-       <div class="content">
-           <section id="home" class="media-1">
-               <h1>Home</h1>
-           </section>
-           
-           <section id="portfolio" class="media-2">
-               <h2 ><a href="https://github.com/robpilgrim"><strong>Github</strong></a></h2>
+<html>
 
-               <ul>Notable projects:
-                   <li><a href="https://github.com/robpilgrim/emoji">emoji script for dmenu and bemenu (wayland).</a></li>
-                   <li><a href="https://github.com/robpilgrim/wpa">script written for easier work with wpa_supplicant</a></li>
-                   <li><a href="https://github.com/robpilgrim/rosh">simple shell written in C</a></li>
-                   <li><a href="https://github.com/robpilgrim/ccwm">simple window manager written in C</a></li>
-               </ul>
-           </section>
-           
-           
-           <section id="contacts" class="media-4">
-               <h1>Contacts</h1>
-           </section>
-           
-       </div>
-       
-       
-       
-       
-       
-   </div>
+<head>
+    <meta charset="utf-8" />
+    <title>Rob Pilgrim</title> 
+    <link rel="stylesheet" href="cv.css">
+</head>
+
+<body>
+
+    <nav class="toc">
+        <ul>
+            <ul>
+                <li><a href="#Contacts">Contacts</a></li>
+                <li><a href="#technical-skills">Technical Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+            </ul>
+        </ul>
+    </nav>
+
+    <main>
+        <img src="p.jpg" style="width:128px;height:128px;border-radius:50%;">
+    
+        <h2>About me:</h2>
+        <p class="highlight">Hello, I am Robert, a linux and network engineering enthusiast from Russia, Moscow.
+        <br>
+        A Free Software Foundation enjoyer.</p>
+        <hr>
+        <strong><h2 id="Contacts">Contacts:</h2></strong>
+            <ul class="highlight">
+                <li>tg @dotrob</li>
+                <li>E-mail: bolliar@outlook.com</li>
+                <li><a href="https://github.com/robpilgrim">Github</a></li>
+                <li><a href="https://t.me/my_codeshit">my tg channel</li>
+
+            </ul>
+        </li>
+        </ul>
+        <hr>
+
+        <h2 id="technical-skills">Technical Skills:</h2>
+
+        <li>System administration:</li>
+        <ul class="highlight">
+            <li>Linux distributions (Gentoo, Arch Linux, Debian, Fedora, etc.),</li>
+            <li>init systems (systemd, openrc),</li>
+            <li>bash, python</li>
+        </ul>
+
+        <li>Networking:</li>
+        <ul class="highlight">
+            <li>OSI, TCP/IP, UDP, Token Ring</li>
+            <li>Nginx</li>
+            <li>Routers, Switches, Hubs</li>
+        </ul>
+
+        <li>Containerization:</li>
+        <ul class="highlight">
+            <li>Docker</li>
+        </ul>
+
+        <li>Additional skills:</li>
+        <ul class="highlight">
+            <li>LaTeX, vim, C, ffmpeg</li>
+        </ul>
+        <hr>
+
+        <h2 id="projects">Projects</h2>
+        <p>Notable projects:</p>
+        <ul>
+            <li><a href="https://github.com/robpilgrim/emoji">emoji script for dmenu and bemenu (wayland).</a></li>
+            <li><a href="https://github.com/robpilgrim/wpa">script written for easier work with wpa_supplicant</a></li>
+            <li><a href="https://github.com/robpilgrim/rosh">simple shell written in C</li>
+            <li><a href="https://github.com/robpilgrim/ccwm">simple window manager written in C</li>
+        </ul>
+    </main>
 </body>
+
 </html>
+
